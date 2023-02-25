@@ -13,6 +13,11 @@ export default function App() {
           { name: "Curso React SDP 2022-3", complete: true },
         ]}
       />
+      <Person
+        name={"Juan"}
+        driverLisense={undefined}
+        education={[{ name: "", complete: true }]}
+      />
     </View>
   );
 }
